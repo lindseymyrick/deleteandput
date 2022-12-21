@@ -5,7 +5,7 @@ const app = express();
 // bodyParser helps parse request bodies for POST
 const bodyParser = require( 'body-parser' );
 
-// configuration 
+// configurations 
 app.use( express.static( 'server/public' ) ) ;
 app.use( bodyParser.urlencoded( { extended: true } ) );
 
